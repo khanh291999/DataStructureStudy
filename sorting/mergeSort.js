@@ -16,6 +16,7 @@ const mergeUnsortedArrs = (left,right) =>{
             sortItem.push(right.shift())
         }
     }
+    console.log("...sortedArray,...left,...right",...sortItem,...left,...right)
     return [...sortItem,...left,...right];
 }
 
