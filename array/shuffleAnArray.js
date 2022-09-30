@@ -8,7 +8,7 @@ const swap = (arr, i, j) =>{
     arr[j] = temp;
 }
 
-const shuffle = (shuffleArr) =>{
+const shuffle = (arr) =>{
     for(let i = 0; i< shuffleArr.length; i++){
         console.log("shuffleArr",shuffleArr)
         swap(shuffleArr,i,Math.floor(Math.random()*(shuffleArr.length)));
@@ -17,4 +17,4 @@ const shuffle = (shuffleArr) =>{
 }
 
 
-console.log(shuffle(shuffleArr))
+console.log(shuffle(arr))

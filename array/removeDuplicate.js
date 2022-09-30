@@ -9,7 +9,7 @@ const removeDuplicates = arr =>{
         }
     }
     let finalarray = arr.splice(0,result)
-    return result, finalarray;
+    return [result, finalarray];
 }
 
 const arr = [1,1,2];
